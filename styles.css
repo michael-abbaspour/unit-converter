@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(2rem, auto);
+  justify-items: center;
+  width: 100%;
+  max-width: 35rem;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 87%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.conversion-choices-container {
+  display: flex;
+  align-items: center;
+}
+
+.conversion-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+input.invalid {
+  border-color: #900;
+  background-color: #fdd;
+}

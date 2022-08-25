@@ -1,0 +1,265 @@
+{
+  "measurementTypes": {
+	"area": {
+	  "units": {
+		"acre": {
+		  "singular_name": "Acre",
+		  "plural_name": "Acres",
+		  "abbreviation": "ac"
+		},
+		"hectare": {
+		  "singular_name": "Hectare",
+		  "plural_name": "Hectares",
+		  "abbreviation": "ha"
+		},
+		"squareMillimeter": {
+		  "singular_name": "Square Millimeter",
+		  "plural_name": "Square Millimeters",
+		  "abbreviation": "mm²"
+		},
+		"squareCentimeter": {
+		  "singular_name": "Square Centimeter",
+		  "plural_name": "Square Centimeters",
+		  "abbreviation": "cm²"
+		},
+		"squareMeter": {
+		  "singular_name": "Square Meter",
+		  "plural_name": "Square Meters",
+		  "abbreviation": "m²"
+		},
+		"squareKilometer": {
+		  "singular_name": "Square Kilometer",
+		  "plural_name": "Square Kilometers",
+		  "abbreviation": "km²"
+		},
+		"squareInch": {
+		  "singular_name": "Square Inch",
+		  "plural_name": "Square Inches",
+		  "abbreviation": "in²"
+		},
+		"squareFoot": {
+		  "singular_name": "Square Foot",
+		  "plural_name": "Square Feet",
+		  "abbreviation": "ft²"
+		},
+		"squareYard": {
+		  "singular_name": "Square Yard",
+		  "plural_name": "Square Yards",
+		  "abbreviation": "yd²"
+		},
+		"squareMile": {
+		  "singular_name": "Square Mile",
+		  "plural_name": "Square Miles",
+		  "abbreviation": "mi²"
+		}
+	  }
+	},
+
+	"speed": {
+	  "units": {
+		"kilometerPerHour": {
+		  "singular_name": "Kilometer per Hour",
+		  "plural_name": "Kilometers per Hour",
+		  "abbreviation": "km/h"
+		},
+		"milePerHour": {
+		  "singular_name": "Mile per Hour",
+		  "plural_name": "Miles per Hour",
+		  "abbreviation": "mi/h"
+		},
+		"meterPerSecond": {
+		  "singular_name": "Meter per Second",
+		  "plural_name": "Meters per Second",
+		  "abbreviation": "m/s"
+		},
+		"footPerSecond": {
+		  "singular_name": "Foot per Second",
+		  "plural_name": "Feet per Second",
+		  "abbreviation": "ft/s"
+		}
+	  }
+	},
+	"length": {
+	  "units": {
+		"millimeter": {
+		  "singular_name": "Millimeter",
+		  "plural_name": "Millimeters",
+		  "abbreviation": "mm"
+		},
+		"centimeter": {
+		  "singular_name": "Centimeter",
+		  "plural_name": "Centimeters",
+		  "abbreviation": "cm"
+		},
+		"meter": {
+		  "singular_name": "Meter",
+		  "plural_name": "Meters",
+		  "abbreviation": "m"
+		},
+		"kilometer": {
+		  "singular_name": "Kilometer",
+		  "plural_name": "Kilometers",
+		  "abbreviation": "km"
+		},
+		"inch": {
+		  "singular_name": "Inch",
+		  "plural_name": "Inches",
+		  "abbreviation": "in"
+		},
+		"foot": {
+		  "singular_name": "Foot",
+		  "plural_name": "Feet",
+		  "abbreviation": "ft"
+		},
+		"yard": {
+		  "singular_name": "Yard",
+		  "plural_name": "Yards",
+		  "abbreviation": "yd"
+		},
+		"mile": {
+		  "singular_name": "Mile",
+		  "plural_name": "Miles",
+		  "abbreviation": "mi"
+		}
+	  }
+	},
+	"temperature": {
+	  "units": {
+		"celsius": {
+		  "singular_name": "Celsius",
+		  "plural_name": "Celsius",
+		  "abbreviation": "°C"
+		},
+		"fahrenheit": {
+		  "singular_name": "Fahrenheit",
+		  "plural_name": "Fahrenheit",
+		  "abbreviation": "°F"
+		},
+		"kelvin": {
+		  "singular_name": "Kelvin",
+		  "plural_name": "Kelvin",
+		  "abbreviation": "°K"
+		},
+		"rankine": {
+		  "singular_name": "Rankine",
+		  "plural_name": "Rankine",
+		  "abbreviation": "°R"
+		}
+	  }
+	},
+	"volume": {
+	  "units": {
+		"cubicMillimeter": {
+		  "singular_name": "Cubic Millimeter",
+		  "plural_name": "Cubic Millimeters",
+		  "abbreviation": "mm³"
+		},
+		"cubicCentimeter": {
+		  "singular_name": "Cubic Centimeter",
+		  "plural_name": "Cubic Centimeters",
+		  "abbreviation": "cm³"
+		},
+		"cubicMeter": {
+		  "singular_name": "Cubic Meter",
+		  "plural_name": "Cubic Meters",
+		  "abbreviation": "m³"
+		},
+		"cubicKilometer": {
+		  "singular_name": "Cubic Kilometer",
+		  "plural_name": "Cubic Kilometers",
+		  "abbreviation": "km³"
+		},
+		"cubicInch": {
+		  "singular_name": "Cubic Inch",
+		  "plural_name": "Cubic Inches",
+		  "abbreviation": "in³"
+		},
+		"cubicFoot": {
+		  "singular_name": "Cubic Foot",
+		  "plural_name": "Cubic Feet",
+		  "abbreviation": "ft³"
+		},
+		"usCup": {
+		  "singular_name": "US Cup",
+		  "plural_name": "US Cups",
+		  "abbreviation": "cup (US)"
+		},
+		"usPint": {
+		  "singular_name": "US Pint",
+		  "plural_name": "US Pints",
+		  "abbreviation": "pnt (US)"
+		},
+		"usQuart": {
+		  "singular_name": "US Quart",
+		  "plural_name": "US Quarts",
+		  "abbreviation": "qt (US)"
+		},
+		"usGallon": {
+		  "singular_name": "US Gallon",
+		  "plural_name": "US Gallons",
+		  "abbreviation": "gal (US)"
+		},
+		"imperialCup": {
+		  "singular_name": "Imperial Cup",
+		  "plural_name": "Imperial Cups",
+		  "abbreviation": "cup (imperial)"
+		},
+		"imperialPint": {
+		  "singular_name": "Imperial Pint",
+		  "plural_name": "Imperial Pints",
+		  "abbreviation": "pnt (imperial)"
+		},
+		"imperialQuart": {
+		  "singular_name": "Imperial Quart",
+		  "plural_name": "Imperial Quarts",
+		  "abbreviation": "qt (imperial)"
+		},
+		"imperialGallon": {
+		  "singular_name": "Imperial Gallon",
+		  "plural_name": "Imperial Gallons",
+		  "abbreviation": "gal (imperial)"
+		},
+		"milliliter": {
+		  "singular_name": "Milliliter",
+		  "plural_name": "Milliliters",
+		  "abbreviation": "mL"
+		},
+		"liter": {
+		  "singular_name": "Liter",
+		  "plural_name": "Liters",
+		  "abbreviation": "L"
+		},
+		"usFluidOunce": {
+		  "singular_name": "US Fluid Ounce",
+		  "plural_name": "US Fluid Ounces",
+		  "abbreviation": "fl oz (US)"
+		},
+		"usTeaspoon": {
+		  "singular_name": "US Teaspoon",
+		  "plural_name": "US Teaspoons",
+		  "abbreviation": "tsp (US)"
+		},
+		"usTablespoon": {
+		  "singular_name": "US Tablespoon",
+		  "plural_name": "US Tablespoons",
+		  "abbreviation": "tbsp (US)"
+		},
+		"imperialFluidOunce": {
+		  "singular_name": "Imperial Fluid Ounce",
+		  "plural_name": "Imperial Fluid Ounces",
+		  "abbreviation": "fl oz (imperial)"
+		},
+		"imperialTeaspoon": {
+		  "singular_name": "Imperial Teaspoon",
+		  "plural_name": "Imperial Teaspoons",
+		  "abbreviation": "tsp (imperial)"
+		},
+		"imperialTablespoon": {
+		  "singular_name": "Imperial Tablespoon",
+		  "plural_name": "Imperial Tablespoon",
+		  "abbreviation": "tbsp (imperial)"
+		}
+	  }
+	}
+  }
+}
