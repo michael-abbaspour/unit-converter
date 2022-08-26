@@ -553,7 +553,7 @@ The steps for this file include:
 1. [Import the Right Modules](#import-the-right-modules)
 2. [Define the Callback Functions and Methods](#define-the-callback-functions-and-methods)
 3. [Define the Temperature Callback Function](#define-the-temperature-callback-function)
-4. [Establish the Event Listeners]
+4. [Establish the Event Listeners](#establish-the-event-listeners)
 
 ###### Import the Right Modules
 
