@@ -4,5 +4,6 @@ package-lock.json
 .quokka
 .prettierrc
 test.js
+DESIGN.md
 # Project exclude paths
 /node_modules/

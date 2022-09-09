@@ -38,3 +38,15 @@ export const firstSelectorTextInput = document.querySelector(
 export const secondSelectorTextInput = document.querySelector(
   'input[name="second-text-input"]'
 );
+
+/**
+ * The DOM HTML Element selector for the Validation Span element
+ * @type {HTMLSpanElement}
+ */
+export const errorValidation = document.querySelector('#validation');
+
+/**
+ * The DOM HTML Element selector for the Written Conversion Span element.
+ * @type {HTMLSpanElement}
+ */
+export const writtenConversion = document.querySelector('#written-conversion');

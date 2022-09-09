@@ -40,7 +40,10 @@ body {
   display: none;
 }
 
-input.invalid {
-  border-color: #900;
-  background-color: #fdd;
+input.input-error {
+  border: 1px solid hsl(348, 83%, 47%);
+}
+
+.error {
+  color: hsl(348, 83%, 47%);
 }

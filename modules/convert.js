@@ -2,12 +2,14 @@
  * Focused on providing the configuration and behavior behind the conversions and formula implementation.
  */
 
+import jsonData from '../modules/units/measurement-types.js';
 import {
   measurementTypeSelect,
   firstConversionSelect,
   secondConversionSelect,
   firstSelectorTextInput,
-  secondSelectorTextInput
+  secondSelectorTextInput,
+  writtenConversion
 } from '../utilities/common-variables.js';
 
 import { areaFormulaData } from './units/area.js';
@@ -16,6 +18,7 @@ import { lengthFormulaData } from './units/length.js';
 import { temperatureFormulaData } from './units/temperature.js';
 import { volumeFormulaData } from './units/volume.js';
 import { calculateValues } from '../utilities/math.js';
+import { measurementTypesEmpty, clearConversionMessage } from './validation.js';
 
 /**
  * Used to retrieve the current value selected within the First Conversion dropdown selector.
@@ -94,6 +97,9 @@ export function firstTextInputEvent() {
         );
         break;
     }
+    measurementTypesEmpty(event);
+    clearConversionMessage();
+    addConversionResults();
   });
 }
 
@@ -152,6 +158,9 @@ export function secondTextInputEvent() {
         );
         break;
     }
+    measurementTypesEmpty(event);
+    clearConversionMessage();
+    addConversionResults();
   });
 }
 
@@ -243,3 +252,32 @@ const populateTemperatureTextInputs = function (
   populatedInput.value = '';
   return (populatedInput.value = unitFormula);
 };
+
+/**
+ * Function adding the results of the unit conversion in written form at the bottom of the Unit Converter container.
+ * @return {string}
+ */
+function addConversionResults() {
+  const measurementTypesString = 'measurementTypes';
+  const unitsString = 'units';
+
+  if (
+    measurementTypeSelect.value !== '' &&
+    firstSelectorTextInput.value !== '' &&
+    secondSelectorTextInput.value !== ''
+  ) {
+    const measurementTypesObj =
+      jsonData[measurementTypesString][measurementTypeSelect.value][
+        unitsString
+      ];
+    const abbreviationString = 'abbreviation';
+    const firstConversionAbbr =
+      measurementTypesObj[firstConversionValue()][abbreviationString];
+    const secondConversionAbbr =
+      measurementTypesObj[secondConversionValue()][abbreviationString];
+    const results = `${firstSelectorTextInput.value} ${firstConversionAbbr} is equal to ${secondSelectorTextInput.value} ${secondConversionAbbr}`;
+
+    writtenConversion.classList.remove('hide');
+    return (writtenConversion.innerText = results);
+  }
+}

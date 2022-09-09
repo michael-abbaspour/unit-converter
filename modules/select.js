@@ -10,6 +10,7 @@ import {
   firstSelectorTextInput,
   secondSelectorTextInput
 } from '../utilities/common-variables.js';
+import { clearErrorInputs, clearConversionMessage } from './validation.js';
 
 /**
  * Declares the property we are going to use to retrieve nested properties from the jsonItems module.
@@ -73,8 +74,10 @@ export function updateConversionSelectChoices() {
       firstConversionSelect.innerText = '';
       secondConversionSelect.innerText = '';
     }
-    firstSelectorTextInput.value = '';
-    secondSelectorTextInput.value = '';
+    clearInput(firstSelectorTextInput);
+    clearInput(secondSelectorTextInput);
+    clearErrorInputs();
+    clearConversionMessage();
   });
 }
 
@@ -90,6 +93,7 @@ export function firstConversionSelectChange() {
     disableSelectOptions(secondConversionSelect, eventTargetValue);
     clearInput(firstSelectorTextInput);
     clearInput(secondSelectorTextInput);
+    clearConversionMessage();
   });
 }
 
@@ -105,6 +109,7 @@ export function secondConversionSelectChange() {
     disableSelectOptions(firstConversionSelect, eventTargetValue);
     clearInput(firstSelectorTextInput);
     clearInput(secondSelectorTextInput);
+    clearConversionMessage();
   });
 }
 

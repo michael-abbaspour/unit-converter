@@ -13,5 +13,4 @@ The current Measurement Types include:
 - Temperature
 - Volume
 
->Currently working on: Validation
 
